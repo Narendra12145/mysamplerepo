@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
                 new ArrayAdapter<String>(this,R.layout.listview_layout,R.id.txt_data,strings);
         //set adapter
         unitlist.setAdapter(adapter);
+        // comment
     }
 }
